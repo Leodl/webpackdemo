@@ -1,0 +1,1 @@
+webpackJsonp([3],[function(n,e){},,,,,,function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var c=t(0),o=(t.n(c),t(7)),u=(t.n(o),t(1)),i=t.n(u);i()("body").append("这是js动态生成的内容：这是about页面！"),i()("#btn").click(function(){alert(222)})},function(n,e){}],[6]);
