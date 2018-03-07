@@ -1,0 +1,1 @@
+webpackJsonp([2],[,function(n,e){},function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o=t(1),u=(t.n(o),t(3)),a=(t.n(u),t(0));t.n(a)()("body").append("这是js动态生成的内容，这是list页面！");var c={add:function(){alert("Leo")},count:function(){alert(3333)}};e.default=c},function(n,e){}],[2]);

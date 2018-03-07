@@ -64,7 +64,8 @@ let baseConfig = {
                         }
                     }
                 ]
-            }
+            },
+            
         ]
     },
     resolve: {
@@ -75,13 +76,15 @@ let baseConfig = {
             '@src': path.resolve(__dirname, '../src'),
             '@images': path.resolve(__dirname, '../src/images/'),
             '@js': path.resolve(__dirname, '../src/js/'),
-            '@less': path.resolve(__dirname, '../src/less/'),
+            '@less': path.resolve(__dirname, '../src/less/')
         }
     },
     plugins: [
         new webpack.ProvidePlugin({ //全局配置加载
             $: "jquery",
             "jquery": "jquery",
+            jQuery: "jquery",
+            "window.$":"jquery",
             "window.jQuery": "jquery"
         })
 
